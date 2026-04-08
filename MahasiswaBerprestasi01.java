@@ -32,13 +32,13 @@ public class MahasiswaBerprestasi01 {
         if (right >= left){
             mid = (left + right) / 2;
             if (cari == listMhs[mid].ipk){
-                return (mid);
+                return (mid);   
             }
             else if (listMhs[mid].ipk > cari){
-                return findBinarySearch(cari, left, mid-1);
+                return findBinarySearch(cari, mid+1, right);
             }
             else{
-                return findBinarySearch(cari, mid+1, right);
+                return findBinarySearch(cari, left, mid-1);
             }
         }
         return -1;

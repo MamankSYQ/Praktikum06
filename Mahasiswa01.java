@@ -13,7 +13,7 @@ public class Mahasiswa01 {
         kelas = kls;
         ipk = ip;
     }
-
+    //m
     void tampilInformasi(){
         System.out.println("Nama : "+nama);
         System.out.println("NIM : "+nim);

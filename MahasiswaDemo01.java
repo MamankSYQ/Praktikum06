@@ -37,4 +37,4 @@ public class MahasiswaDemo01 {
         list.tampilPosisi(cari, pss);
         list.tampilDataSearch(cari, pss);
     }
-}
+}//m

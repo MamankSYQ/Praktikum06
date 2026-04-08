@@ -46,4 +46,4 @@ public class MahasiswaBerprestasi01 {
             System.out.println("Data mahasiswa dengan IPK "+x+" tidak ditemukan");
         }
     }
-}
+}//m
